@@ -5,7 +5,7 @@ import openai
 
 app = Flask(__name__)
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 OUTLIERS_FILE = 'outliers.json'
 EDITOR_CONTENT_FILE = 'editor_content.json'
