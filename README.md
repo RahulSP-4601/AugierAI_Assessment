@@ -8,20 +8,20 @@
 
 * Features
     1. Outlier Management (First Section):
-        i. Users can create, name, and switch between multiple outliers.
-        ii. Each outlier saves its own state, including text edits and interactions with the LLM.
-        iii. Data is stored and persisted using JSON.
+        a] Users can create, name, and switch between multiple outliers.
+        b] Each outlier saves its own state, including text edits and interactions with the LLM.
+        c] Data is stored and persisted using JSON.
 
     2. Custom Text Editor (Second Section):
-        i. A fully functional word-processing area with options to:
+        a] A fully functional word-processing area with options to:
             i.i. Change text size, font, and color.
             i.ii. Apply bold, italics, underline, and highlight text.
-        ii. Edits are saved for each outlier and persist across sessions.
+        b] Edits are saved for each outlier and persist across sessions.
 
     3. Large Language Model Integration (Third Section):
-        i. The LLM is powered by OpenAI’s API, providing intelligent and context-aware responses based on user inputs.
-        ii. Conversations with the LLM are saved and specific to each outlier.
-        iii. Note: OpenAI’s free quota has limits, and additional usage may require payment.
+        a] The LLM is powered by OpenAI’s API, providing intelligent and context-aware responses based on user inputs.
+        b] Conversations with the LLM are saved and specific to each outlier.
+        c] Note: OpenAI’s free quota has limits, and additional usage may require payment.
 
 * Technology Stack
     1. Frontend:
