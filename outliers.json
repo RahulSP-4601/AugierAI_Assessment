@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Task 1",
+        "content": "<b>Bold </b>"
+    },
+    {
+        "name": "Task 2",
+        "content": "I am currently pursuing master's in computer Science"
+    },
+    {
+        "name": "Task 3",
+        "content": "I am from Texas"
+    },
+    {
+        "name": "Task 4",
+        "content": "This is assessment for AugierAI"
+    },
+    {
+        "name": "Task 5",
+        "content": "How is the weather"
+    },
+    {
+        "name": "Task 6",
+        "content": "Task 6b completed"
+    },
+    {
+        "name": "Task 7",
+        "content": ""
+    },
+    {
+        "name": "Task 1",
+        "content": ""
+    },
+    {
+        "name": "Task 8",
+        "content": "<strike>Strike out</strike>"
+    },
+    {
+        "name": "Bold",
+        "content": "<b>Bold</b>"
+    }
+]
