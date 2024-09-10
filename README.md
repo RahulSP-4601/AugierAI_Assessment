@@ -38,10 +38,10 @@
 
 * How to Run the Project
     1. Ensure you have the following installed:
-        i. Python 3.x
-        ii. pip install Flask openai
+        a] Python 3.x
+        b] pip install Flask openai
 
     2. Set up the environment:
-        i. Navigate to the project directory in your terminal or command prompt.
-        ii. Type python app.py
-        iii. You will find http://127.0.0.1:5000 link in terminal copy paste in any web browser our project will be hosted locally.
+        a] Navigate to the project directory in your terminal or command prompt.
+        b] Type python app.py
+        c] You will find http://127.0.0.1:5000 link in terminal copy paste in any web browser our project will be hosted locally.
