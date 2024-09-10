@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AugierAI Assessment</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body onload="loadData()">
+    <div class="container">
+        
+        <div class="part outlier">
+            <h2>Outliers</h2>
+            <ul id="outlier-list"></ul>
+            <button id="add-outlier" class="button">+ Add Outlier</button>
+        </div>
+        
+        <div class="part editor">
+        <h3 id="current-outlier"></h3>
+        <div class="toolbar">
+            <button id="bold-button">Bold</button>
+            <button id="italic-button">Italic</button>
+            <button id="strike-button">Strikeout</button>
+            <select id="font-family-select">
+                <option value="">Font</option>
+                <option value="Arial">Arial</option>
+                <option value="Courier New">Courier New</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Verdana">Verdana</option>
+            </select>
+            <select id="font-size-select">
+                <option value="">Size</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <input id="text-color" type="color" title="Text Color">
+            <input id="background-color" type="color" title="Background Color">
+        </div>
+        <div id="editor" class="editor" contenteditable="true" placeholder="Type your document here..."></div>
+    </div>
+
+        <div class="part llm">
+            <div class="llm-top">
+                <div id="result-area" class="result-area"></div>
+            </div>
+            <div class="llm-bottom">
+                <div id="input-area" class="input-area" contenteditable="true" placeholder="Type your request here..."></div>
+                <button id="send-message" class="button">Send</button>
+                <div id="spinner" class="spinner"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
